@@ -766,9 +766,33 @@
                     <span class="dot"></span>
                     <time datetime="2022-01-23">Jan 23, 2024</time>
                   </div>
-                  <h3 class="h3 blog-item-title">Cross-Site Scripting (XSS) Vulnerabilities</h3>
+                  <h3 class="h3 blog-item-title">Cross-Site Scripting (XSS) Vulnerabilitie</h3>
                   <p class="blog-text">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
+                    Cross-Site Scripting (XSS) is a type of security vulnerability typically found in web applications. It occurs when an attacker is able to inject malicious scripts into content that is then delivered to other users. These scripts can be used to steal information, manipulate content, or perform other malicious actions.<br><br>
+
+                    Types of XSS:-<br>                  
+                    Stored XSS (Persistent XSS):-   
+                       Definition: The malicious script is permanently stored on the target server, such as in a database, a comment field, or a message forum. 
+                      Scenario: An attacker posts a malicious script in a blog comment. Every time someone views the blog post, the script executes, stealing cookies or session data from visitors.<br>
+                  
+                    Reflected XSS (Non-Persistent XSS):-   
+                       Definition: The malicious script is reflected off a web server, such as in an error message, search result, or any other response that includes some or all of the input sent to the server as part of the request.
+                       Scenario: An attacker crafts a URL containing a malicious script. When a victim clicks on the URL, the script is sent to the server and reflected back in the response, executing in the victim's browser.<br>
+                  
+                    DOM-Based XSS:-   
+                       Definition: The vulnerability exists in the client-side code rather than the server-side code. The malicious script manipulates the Document Object Model (DOM) environment in the victim’s browser.
+                       Scenario: An attacker manipulates the URL or a hash fragment. The client-side script in the victim's browser reads the manipulated URL and executes the malicious script within the browser context.<br>
+                  
+                    Prevent XSS:-   
+                    Input Validation-   
+                         Always validate and sanitize user inputs to ensure that they do not contain any malicious content.<br>
+                    Output Encoding-   
+                         Encode data before outputting it to the browser, especially in HTML, JavaScript, and URL contexts.<br>
+                     Use Content Security Policy (CSP)-   
+                         Implement CSP to control the sources from which resources can be loaded, thereby limiting the potential for XSS attacks.<br>
+                     Escape Data in HTML Contexts -  
+                         Use appropriate escaping techniques to neutralize potentially malicious content in the HTML context.<br>             
+                  
                   </p>
                 </div>
               </a>
