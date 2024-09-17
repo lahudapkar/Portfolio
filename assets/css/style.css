@@ -1,6 +1,5 @@
 :root { 
-    /* gradient */
-  
+    /* gradient */  
     --bg-gradient-onyx: linear-gradient(to bottom right,
         hsl(240, 1%, 25%) 3%,
         hsl(0, 0%, 19%) 97%);
@@ -20,8 +19,7 @@
         hsl(45, 100%, 72%),
         hsl(35, 100%, 68%));
   
-    /* solid */
-  
+    /* solid */  
     --jet: hsl(0, 0%, 22%);
     --onyx: hsl(240, 1%, 17%);
     --eerie-black-1: hsl(240, 2%, 13%);
@@ -38,8 +36,7 @@
     /**
      * typography
      */
-  
-    /* font-family */
+      /* font-family */
     --ff-poppins: 'Poppins', sans-serif;
   
     /* font-size */
@@ -60,8 +57,7 @@
   
     /**
      * shadow
-     */
-  
+     */  
     --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.25);
     --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.25);
     --shadow-3: 0 16px 40px hsla(0, 0%, 0%, 0.25);
@@ -70,14 +66,10 @@
   
     /**
      * transition
-     */
-  
+     */  
     --transition-1: 0.25s ease;
-    --transition-2: 0.5s ease-in-out;
-  
-  }
-  
-  
+    --transition-2: 0.5s ease-in-out;  
+  }  
   /*-----------------------------------*\
     #RESET
   \*-----------------------------------*/
@@ -443,7 +435,6 @@
     font-size: 18px;
   }
   
-  
   .social-item .social-link:hover {
     color: var(--light-gray);
   }
@@ -487,8 +478,7 @@
   
   .navbar-link.active {
     color: var(--orange-yellow-crayola);
-  }
-  
+  }  
   
   /*-----------------------------------*\
     #ABOUT
@@ -507,14 +497,11 @@
   
   .about-text p {
     margin-bottom: 15px;
-  }
-  
-  
+  } 
   
   /**
    * #service 
    */
-  
   .service {
     margin-bottom: 35px;
   }
@@ -569,7 +556,6 @@
     font-weight: var(--fw-3);
     line-height: 1.6;
   }
-  
   
   /**
    * #testimonials 
@@ -627,7 +613,6 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
-  
   
   /**
    * #testimonials-modal
@@ -751,8 +736,6 @@
     font-weight: var(--fw-300);
     line-height: 1.6;
   }
-  
-  
   /**
    * #clients 
    */
@@ -789,22 +772,18 @@
   
   .clients-item img:hover {
     filter: grayscale(0);
-  }
-  
-  
+  }  
   /*-----------------------------------*\
     #RESUME
   \*-----------------------------------*/
   
   .article-title {
     margin-bottom: 30px;
-  }
-  
+  } 
   
   /**
    * education and experience 
-   */
-  
+   */  
   .timeline {
     margin-bottom: 30px;
   }
@@ -867,13 +846,11 @@
     color: var(--light-gray);
     font-weight: var(--fw-300);
     line-height: 1.6;
-  }
-  
+  }  
   
   /**
    * skills 
    */
-  
   .skills-title {
     margin-bottom: 20px;
   }
@@ -881,8 +858,7 @@
   .skills-list {
     padding: 20px;
   }
-  
-  
+
   .skills-item:not(:last-child) {
     margin-bottom: 15px;
   }
@@ -1091,7 +1067,6 @@
     font-weight: var(--fw-300);
   }
   
-  
   /*-----------------------------------*\
     #BLOG
   \*-----------------------------------*/
@@ -1183,7 +1158,6 @@
     font-weight: var(--fw-300);
     line-height: 1.6;
   }
-  
   
   /*-----------------------------------*\
     #CONTACT
@@ -1338,9 +1312,7 @@
     .blog-banner-box {
       height: auto;
     }
-  
-  }
-  
+  }  
   /**
    * responsive larger than 580px screen
    */
@@ -1352,7 +1324,6 @@
      */
   
     :root {
-  
       /**
        * typography
        */
@@ -1363,11 +1334,8 @@
       --fs-4: 18px;
       --fs-6: 15px;
       --fs-7: 15px;
-      --fs-8: 12px;
-  
-    }
-  
-  
+      --fs-8: 12px;  
+    }  
     /**
      * #REUSED STYLE
      */
@@ -1394,8 +1362,7 @@
       height: 48px;
       border-radius: 12px;
       font-size: 18px;
-    }
-  
+    }  
     /**
      * #MAIN
      */
@@ -1464,8 +1431,7 @@
     .contact-info {
       max-width: calc(100% - 64px);
       width: calc(100% - 64px);
-    }
-  
+    }  
     /**
      * #NAVBAR
      */
@@ -1481,7 +1447,6 @@
     .navbar-link {
       --fs-8: 14px;
     }
-  
     /**
      * #ABOUT
      */
@@ -1494,8 +1459,7 @@
       margin-bottom: 40px;
     }
   
-    /* service */
-  
+    /* service */  
     .service-item {
       display: flex;
       justify-content: flex-start;
@@ -1513,8 +1477,7 @@
       text-align: left;
     }
   
-    /* testimonials */
-  
+    /* testimonials */  
     .testimonials-title {
       margin-bottom: 25px;
     }
@@ -1550,8 +1513,7 @@
       -webkit-line-clamp: 2;
     }
   
-    /* testimonials modal */
-  
+    /* testimonials modal */  
     .modal-container {
       padding: 20px;
     }
@@ -1586,8 +1548,7 @@
       width: 35px;
     }
   
-    /* clients */
-  
+    /* clients */  
     .clients-list {
       gap: 50px;
       margin: 0 -30px;
@@ -1597,8 +1558,7 @@
   
     .clients-item {
       min-width: calc(33.33% - 35px);
-    }
-  
+    }  
     /**
      * #RESUME
      */
@@ -1619,9 +1579,7 @@
   
     .skills-item:not(:last-child) {
       margin-bottom: 25px;
-    }
-  
-  
+    }  
     /**
      * #PORTFOLIO, BLOG
      */
@@ -1637,14 +1595,11 @@
   
     .blog-content {
       padding: 25px;
-    }
-  
-  
+    } 
     /**
      * #CONTACT
      */
-  
-    .mapbox {
+      .mapbox {
       height: 380px;
       border-radius: 18px;
     }
@@ -1671,18 +1626,15 @@
       font-size: 18px;
     }
   
-  }
-  
+  }  
   /**
    * responsive larger than 768px screen
-   */
-  
+   */  
   @media (min-width: 768px) {
   
     /**
      * REUSED STYLE
-     */
-  
+     */  
     .sidebar,
     article {
       width: 700px;
@@ -1690,9 +1642,7 @@
   
     .has-scrollbar::-webkit-scrollbar-button {
       width: 100px;
-    }
-  
-  
+    }  
     /**
      * SIDEBAR
      */
@@ -1700,23 +1650,18 @@
     .contacts-list {
       grid-template-columns: 1fr 1fr;
       gap: 30px 15px;
-    }
-  
-  
+    }  
     /**
      * NAVBAR
-     */
-  
+     */  
     .navbar-link {
       --fs-8: 15px;
-    }
-  
+    }  
     /**
      * ABOUT
      */
   
     /* testimonials modal */
-  
     .testimonials-modal {
       gap: 35px;
       max-width: 680px;
@@ -1724,10 +1669,7 @@
   
     .modal-avatar-box img {
       width: 80px;
-    }
-  
-  
-  
+    }  
     /**
      * PORTFOLIO
      */
@@ -1763,14 +1705,11 @@
       color: var(--orange-yellow-crayola);
     }
   
-    /* portfolio and blog grid */
-  
+    /* portfolio and blog grid */  
     .project-list,
     .blog-posts-list {
       grid-template-columns: 1fr 1fr;
-    }
-  
-  
+    }  
     /**
      * CONTACT
      */
@@ -1783,10 +1722,7 @@
       width: max-content;
       margin-left: auto;
     }
-  
-  }
-  
-  
+  }  
   /**
    * responsive larger than 1024px screen
    */
@@ -1795,34 +1731,25 @@
   
     /**
      * CUSTOM PROPERTY
-     */
-  
+     */  
     :root {
   
       /**
       * shadow
-      */
-  
+      */  
       --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.125);
       --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.125);
       --shadow-3: 0 16px 40px hsla(0, 0%, 0%, 0.125);
   
     }
-  
-  
-  
     /**
      * REUSED STYLE
-     */
-  
+     */  
     .sidebar,
     article {
       width: 950px;
       box-shadow: var(--shadow-5);
     }
-  
-  
-  
     /**
      * MAIN 
      */
@@ -1835,10 +1762,7 @@
       position: relative;
       width: max-content;
       margin: auto;
-    }
-  
-  
-  
+    }  
     /**
      * NAVBAR
      */
@@ -1863,34 +1787,25 @@
     .navbar-link {
       font-weight: var(--fw-500);
     }
-  
-  
-  
     /**
      * ABOUT
      */
   
-    /* service */
-  
+    /* service */  
     .service-list {
       grid-template-columns: 1fr 1fr;
       gap: 20px 25px;
     }
   
-    /* testimonials */
-  
+    /* testimonials */  
     .testimonials-item {
       min-width: calc(50% - 15px);
     }
   
-    /* clients */
-  
+    /* clients */  
     .clients-item {
       min-width: calc(25% - 38px);
-    }
-  
-  
-  
+    }  
     /**
      * PORTFOLIO
      */
@@ -1898,9 +1813,6 @@
     .project-list {
       grid-template-columns: repeat(3, 1fr);
     }
-  
-  
-  
     /**
      * BLOG
      */
@@ -1910,8 +1822,6 @@
     }
   
   }
-  
-  
   /**
    * responsive larger than 1250px screen
    */
@@ -1945,9 +1855,6 @@
     body::-webkit-scrollbar-button {
       height: 60px;
     }
-  
-  
-  
     /**
      * REUSED STYLE
      */
@@ -1960,7 +1867,6 @@
     article {
       min-height: 100%;
     }
-  
     /**
      * MAIN
      */
@@ -1985,8 +1891,7 @@
       margin-top: 1%;
       margin-bottom: 1%;
       width: 100%;
-}
-  
+    }
     /**
      * SIDEBAR
      */
